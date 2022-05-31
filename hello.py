@@ -32,6 +32,6 @@ elif current_language == 'it_IT':
 elif current_language == 'es_SP':
     msg = 'Hola, Mundo!'
 elif current_language == 'fr_FR':
-    msg = 'Bonjour Monde'
+    msg = 'Bonjour Monde'ddd
 
 print(msg)
