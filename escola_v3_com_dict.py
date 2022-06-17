@@ -23,10 +23,15 @@ for chave, valor in atividades.items():
     print(f"Alunos da atividade {chave}\n")
     print("-" * 50)
     
-    # sala1 que tem interseção com a atividade
-
-    atividade_sala1 = set(sala1) & set(valor)
-    atividade_sala2 = set(sala2) & set(valor)
+    atividade_sala1 = []
+    atividade_sala2 = []
+    
+    for aluno in valor:
+        if aluno in sala1:
+            atividade_sala1.append(aluno)
+        elif aluno in sala2:
+            atividade_sala2.append(aluno)
+    
         
     print("Sala1", atividade_sala1)
     print("Sala2", atividade_sala2)
