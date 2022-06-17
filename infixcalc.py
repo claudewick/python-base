@@ -1,17 +1,36 @@
 #!/usr/bin/env python3
 """ Calculadora infix
+<<<<<<< HEAD
 Funcionamento:
 [operação] [n1] [n2]
+=======
+
+Funcionamento:
+
+[operação] [n1] [n2]
+
+>>>>>>> 5a4facd5a81720afdd0b95565ffcdcb203ab68de
 Operações: 
 sum -> +
 sub -> -
 mul -> *
 div -> /
+<<<<<<< HEAD
 Uso:
 $ infixcalc.py sum 5 2
 7
 $ infixcalc.py mul 10 5
 50
+=======
+
+Uso:
+$ infixcalc.py sum 5 2
+7
+
+$ infixcalc.py mul 10 5
+50
+
+>>>>>>> 5a4facd5a81720afdd0b95565ffcdcb203ab68de
 $ infixcalc.py 
 operação: sum
 n1: 5
@@ -65,4 +84,8 @@ elif operation == "mul":
 elif operation == "div":
     result = n1 / n2
 
+<<<<<<< HEAD
 print(f'O resultado é {result}')
+=======
+print(f'O resultado é {result}')
+>>>>>>> 5a4facd5a81720afdd0b95565ffcdcb203ab68de
